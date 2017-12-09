@@ -3,13 +3,13 @@ public class Product {
     private ProductCategory category;
     private String name;
     private int price;
-    private int satisfaction;
+    private int value;
 
-    public Product(ProductCategory category, String name, int price, int satisfaction) {
+    public Product(ProductCategory category, String name, int price, int value) {
         this.category = category;
         this.name = name;
         this.price = price;
-        this.satisfaction = satisfaction;
+        this.value = value;
     }
 
     public ProductCategory getCategory() {
@@ -28,12 +28,12 @@ public class Product {
         this.price = price;
     }
 
-    public int getSatisfaction() {
-        return satisfaction;
+    public int getValue() {
+        return value;
     }
 
-    public void setSatisfaction(int satisfaction) {
-        this.satisfaction = satisfaction;
+    public void setValue(int value) {
+        this.value = value;
     }
 
     public String getName() {
